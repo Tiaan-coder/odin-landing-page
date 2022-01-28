@@ -68,6 +68,47 @@ a {
 
 }
 
-h1 {
+.header1 {
     color: #f9faf8;
+}
+
+.container {
+    text-align: center;
+}
+
+.header2 {
+    font-size: 36px bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.secondary-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.pic {
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+}
+
+.text {
+    max-width: 104px;
+}
+
+.container2 {
+    text-align: center;
+    max-width: 50%;
+}
+
+.quote {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
