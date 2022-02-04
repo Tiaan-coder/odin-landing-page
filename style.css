@@ -20,6 +20,10 @@ body {
     
 }
 
+a.logo:hover {
+    background-color: #3882f6;
+}
+
 .links {
     color: #f9faf8;
     margin: 10px;
@@ -37,6 +41,10 @@ ul {
 a {
     text-decoration: none;
     color: #f9faf8;
+}
+
+li:hover {
+    background-color: #3882f6;
 }
 
 .header {
@@ -67,6 +75,7 @@ a {
     border-radius: 10px;
 
 }
+
 
 .header1 {
     color: #f9faf8;
@@ -143,9 +152,6 @@ a {
     align-content: center;
 }
 
-.left2 {
-
-}
 
 .call {
     color: #f9faf8;
@@ -170,10 +176,16 @@ a {
     background-color: #3882f6;
 }
 
-.copyright {
+.copyright-info {
     background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    padding: 8px;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
 }
