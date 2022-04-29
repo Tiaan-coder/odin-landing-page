@@ -22,6 +22,8 @@ body {
 
 a.logo:hover {
     background-color: #3882f6;
+    padding: 5px 0px;
+    border-radius: 7%;
 }
 
 .links {
@@ -45,6 +47,7 @@ a {
 
 li:hover {
     background-color: #3882f6;
+    border-radius: 7%;
 }
 
 .header {
@@ -74,6 +77,11 @@ li:hover {
     width: 120px;
     border-radius: 10px;
 
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color: #1f2937;
 }
 
 
@@ -174,6 +182,11 @@ li:hover {
     text-align: center;
     text-decoration: none;
     background-color: #3882f6;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: #1f2937;
 }
 
 .copyright-info {
